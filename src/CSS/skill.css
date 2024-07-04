@@ -1,0 +1,101 @@
+#skills {
+    position: relative;
+    color: white;
+    z-index: -1;
+    padding: 4% 5%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#skills::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+
+#skills .main-container {
+    position: relative;
+    align-items: center;
+    margin: auto;
+    margin-top: 0;
+    padding-bottom: 3rem;
+    /* padding-top: 2rem; */
+}
+
+#skills .main-container .title{
+    position: relative;
+    font-size: 2.4rem !important;
+    color: rgb(219, 246, 194);
+    text-align: center;
+    align-items: baseline;
+    padding-bottom: 1rem;
+}
+
+#skills .main-container .flex-container {
+    position: relative;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+#skills .main-container .flex-container .container {
+    margin: 10px;
+    padding: 0 20px;
+    border-left: 1px solid white;
+    position: relative;
+}
+
+#skills .main-container .flex-container .container .circle {
+    position: absolute;
+    top: 1.4rem;
+    border: 2px solid rgb(39, 81, 0);
+    border-radius: 50%;
+    left: -0.5rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: rgb(219, 246, 194);
+}
+
+#skills .main-container .container .skill_category h3 {
+    color: rgb(219, 246, 194);
+}
+
+#skills .main-container .container .flex-cont {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    align-items: center;
+}
+
+#skills .main-container .container .flex-cont .logo {
+    font-size: 30px;
+}
+
+#skills .main-container .container .flex-cont p{
+    font-size: 12px;    
+}
+
+@media screen and (max-width: 800px){
+    #skills {
+        margin: 5% 10% 5% 15%;
+    }
+    #skills .main-container .flex-container {
+        grid-template-columns: 45% 45%;
+    }
+}
+
+@media screen and (max-width: 530px){
+    #skills {
+        margin: 5% 15% 5% 25%;
+    }
+    #skills .main-container .flex-container {
+        grid-template-columns: 90%;
+    }
+}

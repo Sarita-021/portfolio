@@ -1,0 +1,87 @@
+#achievements {
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: auto;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    height: auto;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#achievements::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+
+#achievements .main-container {
+    position: relative;
+    align-items: center;
+    margin: auto;
+    margin-top: 0;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+#achievements .title {
+    position: relative;
+    font-size: 3rem;
+    color: rgb(251, 201, 37) !important;
+    text-align: center;
+    align-items: baseline;
+}
+
+#achievements .main-container .title .ach_icon {
+    width: 2.5rem;
+    height: auto;
+    position: relative;
+    top: 5px;
+    color: rgb(251, 201, 37);
+}
+
+#achievements .main-container .container {
+    color: white;
+    position: relative;
+}
+
+#achievements .main-container .container p {
+    font-size: large;
+}
+
+#achievements .main-container .container span{
+    color: rgb(251, 201, 37);
+}
+
+#achievements .main-container .container .arrow{
+    color: rgb(251, 201, 37);
+    position: relative;
+    top: 5px;
+}
+
+@media screen and (max-width: 800px){
+    #achievements {
+        /* margin: 0 3rem 3rem; */
+        background-size: auto 100%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #achievements {
+        /* margin: 0 3rem 3rem; */
+        background-size: auto 100%;
+    }
+
+    #achievements .main-container {
+        /* margin: auto; */
+        margin: 0 3rem 3rem;
+    }
+}

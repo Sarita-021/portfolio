@@ -1,0 +1,93 @@
+#footer {
+    position: relative;
+    margin: auto;
+    color: white;
+    align-items: center;
+    /* height: 300px; */
+    border-top: 1px solid rgb(141, 141, 141);
+    padding: 20px 20px 10px;
+}
+
+#footer .main-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: auto 10% 50px;
+}
+
+#footer .main-container .container {
+    position: relative;
+    text-align: left;
+    align-items: flex-start;
+    flex: 1 1 0%;
+    flex-direction: column;
+}
+
+#footer .main-container .container p{
+    color: rgb(176, 176, 176);
+    font-size: 12px;
+}
+
+#footer .main-container .container .icons .socials {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#footer .main-container .container .download-link .resume .btn{
+    position: relative;
+    background-image: linear-gradient(360deg,#D5E3F1,#B6CCF5);
+    border-radius: 0.25rem;
+    justify-content: center;
+    padding-top: 0.50rem;
+    padding-bottom: 0.50rem;
+    font-size: 12px;
+    font-weight: 700;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    margin-top: 1.5rem;
+    margin: 1.5rem 1rem 1.5rem 0;
+}
+
+#footer .main-container .container .download-link .resume .mr{
+    animation: float 6s ease-in-out infinite;
+    box-shadow: 5px 5px 15px #021e53bb;
+}
+
+@keyframes float {
+    0% {
+      box-shadow: 5px 5px 15px #021e53bb;
+      transform: translatey(0px);
+    }
+    50% {
+      box-shadow: 5px 10px 15px #01205cd0;
+      transform: translatey(-10px);
+    }
+    100% {
+      box-shadow: 5px 5px 15px #021e53bb;
+      transform: translatey(0px);
+    }
+  }
+
+#footer .main-container .myphoto .myph{
+    width: 9rem;
+    height: 9rem;
+    background-size: 3rem 3rem;
+    border: 5px solid #2a2a2a;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+}
+
+#footer .main-container .myphoto .myph:hover{
+    transform: scale(1.1);
+}
+
+#footer .copyright {
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.socials {
+    position: relative;
+    width: 300px;
+    margin: auto;
+}
+
+.socials .social_icons {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    font-size: medium;
+    /* height: 55px; */
+    padding: 8px 16px 8px 0;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.social_icons:hover{
+    transform: scale(1.3);
+    color: rgb(217, 242, 255) !important;
+}

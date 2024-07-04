@@ -1,0 +1,87 @@
+#education {
+    position: relative;
+    color: white;
+    z-index: -1;
+    /* margin: 30px; */
+    margin: auto;
+}
+
+#education .main-container {
+    position: relative;
+    align-items: center;
+    margin: auto;
+    margin-top: 0;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+#education .title{
+    position: relative;
+    font-size: 3rem;
+    color: rgb(103, 181, 249);
+    text-align: center;
+    align-items: baseline;
+    padding-bottom: 3rem;
+}
+
+#education .title .edu_icon {
+    width: 2.5rem;
+    height: auto;
+    position: relative;
+    top: 5px;
+    color: rgb(103, 181, 249);
+}
+
+#education .edu_wrapper .edu_flex{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 20px auto;
+    width: 600px;
+    border: 5px solid #1d1d1d;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    background-color: rgba(13,13,13,.85);
+    border-radius: 0.5rem;
+}
+
+#education .edu_wrapper .edu_flex .flex-item{
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+#education .edu_wrapper .edu_flex .logo .logo-img{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 10px;
+}
+
+#education .edu_wrapper .edu_flex .detail .school_name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    padding: 4px;
+}
+
+#education .edu_wrapper .edu_flex .detail .degree_name {
+    font-size: 1rem;
+    color: rgb(240, 239, 239);
+    padding: 4px 4px;
+}
+
+#education .edu_wrapper .edu_flex .detail .durGar {
+    font-size: 0.8rem;
+    color: rgb(204, 201, 201);
+    padding: 2px 4px 8px;
+}
+
+@media screen and (max-width: 700px){
+    #education .edu_wrapper .edu_flex {
+        width: 90%;
+        margin: 30px auto;
+        overflow: auto;
+    }
+}

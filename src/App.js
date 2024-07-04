@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import "./app.css"
+import Header from "./Components/header";
+import Home from "./Pages/home";
+import Footer from "./Components/footer";
+import MyProjects from "./Pages/myprojects";
+import MyBlogs from "./Pages/myblogs";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+    duration: 1200,
+});
+
+
+const App = () => {
+
+
+    return (
+        <div className="App">
+            <Router>
+                <Header />
+                <Routes>
+                    <Route exact path="/" element={<Home />} />
+                    <Route exact path="/Myprojects" element={<MyProjects />} />
+                    <Route exact path="/MyBlogs" element={<MyBlogs />} />
+                </Routes>
+            </Router>
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
+
+
+
