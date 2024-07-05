@@ -1,46 +1,47 @@
-import { SiReact,SiRedux,SiGithub,SiAndroidstudio,SiPostman,SiPython,SiCplusplus,SiVisualstudiocode,
-    SiGit,SiCss3,SiMongodb,SiJavascript,SiExpress,SiNodedotjs,SiHtml5,SiJava,SiMysql,
-    SiC,SiJsonwebtokens,SiMongoose,SiJetpackcompose,SiAndroid} from "react-icons/si";
-import {FaJava} from "react-icons/fa6"
-import {PiStackBold} from "react-icons/pi";
-import {TbBrandReactNative,TbApi,TbBrandKotlin} from "react-icons/tb";
+import {
+    SiReact, SiRedux, SiGithub, SiPostman, SiPython, SiCplusplus, SiVisualstudiocode,
+    SiGit, SiCss3, SiMongodb, SiJavascript, SiExpress, SiNodedotjs, SiHtml5, SiNpm, SiMysql,
+    SiC, SiJsonwebtokens, SiMongoose, SiJupyter
+} from "react-icons/si";
+import { FaJava } from "react-icons/fa6";
+import { TbApi } from "react-icons/tb";
 
-const Jyoti = {
-    name: "Jyoti",
-    profession: ["Full Stack Developer", "Native Android Developer", "React Native Developer"],
+const Sarita = {
+    name: "Sarita",
+    profession: ["MERN Stack Developer", "Machine Learning Enthusiast"],
     skills: [
         {
             category: "MERN Stack",
             technology: [
                 {
                     id: "ms-1",
+                    name: "Mongoose",
+                    logo: SiMongoose
+                },
+                {
+                    id: "ms-2",
+                    name: "ExpressJS",
+                    logo: SiExpress
+                },
+                {
+                    id: "ms-3",
                     name: "React",
                     logo: SiReact
                 },
                 {
-                    id: "ms-2",
-                    name: "HTML",
-                    logo: SiHtml5
-                },
-                {
-                    id: "ms-3",
-                    name: "CSS",
-                    logo: SiCss3
-                },
-                {
                     id: "ms-4",
-                    name: "Redux",
-                    logo: SiRedux
-                },
-                {
-                    id: "ms-5",
                     name: "NodeJS",
                     logo: SiNodedotjs
                 },
                 {
+                    id: "ms-5",
+                    name: "CSS",
+                    logo: SiCss3
+                },
+                {
                     id: "ms-6",
-                    name: "ExpressJS",
-                    logo: SiExpress
+                    name: "Redux",
+                    logo: SiRedux
                 },
                 {
                     id: "ms-7",
@@ -52,46 +53,6 @@ const Jyoti = {
                     name: "JWT",
                     logo: SiJsonwebtokens
                 },
-                {
-                    id: "ms-9",
-                    name: "Mongoose",
-                    logo: SiMongoose
-                }
-            ]
-        },
-        {
-            category: "Android",
-            technology: [
-                {
-                    id: "a-1",
-                    name: "JetPack Compose",
-                    logo: SiJetpackcompose
-                },
-                {
-                    id: "a-2",
-                    name: "JetPack Libraries",
-                    logo: SiAndroid
-                },
-                {
-                    id: "a-3",
-                    name: "Dagger-Hilt",
-                    logo: SiAndroid
-                },
-                {
-                    id: "a-4",
-                    name: "Retrofit",
-                    logo: TbApi
-                },
-                {
-                    id: "a-5",
-                    name: "Coil",
-                    logo: PiStackBold
-                },
-                {
-                    id: "a-6",
-                    name: "React Native",
-                    logo: TbBrandReactNative
-                }
             ]
         },
         {
@@ -99,13 +60,13 @@ const Jyoti = {
             technology: [
                 {
                     id: "pl-1",
-                    name: "C++",
-                    logo: SiCplusplus
+                    name: "Python",
+                    logo: SiPython
                 },
                 {
                     id: "pl-2",
-                    name: "Java",
-                    logo: FaJava
+                    name: "C++",
+                    logo: SiCplusplus
                 },
                 {
                     id: "pl-3",
@@ -114,13 +75,13 @@ const Jyoti = {
                 },
                 {
                     id: "pl-4",
-                    name: "Python",
-                    logo: SiPython
+                    name: "HTML",
+                    logo: SiHtml5
                 },
                 {
                     id: "pl-5",
-                    name: "Kotlin",
-                    logo: TbBrandKotlin
+                    name: "Java",
+                    logo: FaJava
                 },
                 {
                     id: "pl-6",
@@ -149,23 +110,28 @@ const Jyoti = {
                 },
                 {
                     id: "dv-4",
-                    name: "Android Studio",
-                    logo: SiAndroidstudio
-                },
-                {
-                    id: "dv-5",
                     name: "Postman",
                     logo: SiPostman
                 },
                 {
-                    id: "dv-6",
+                    id: "dv-5",
                     name: "MongoDB",
                     logo: SiMongodb
                 },
                 {
-                    id: "dv-7",
+                    id: "dv-6",
                     name: "MySQL",
                     logo: SiMysql
+                },
+                {
+                    id: "dv-7",
+                    name: "NPM",
+                    logo: SiNpm
+                },
+                {
+                    id: "dv-8",
+                    name: "Jupyter",
+                    logo: SiJupyter
                 }
             ]
         }
@@ -173,74 +139,88 @@ const Jyoti = {
     Education: [
         {
             School: "Guru Jambeshwar University of Science and Technology",
-            Degree: "BTech CSE",
+            Degree: "BTech CSE AI & ML",
             logo: "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Guru_Jambheshwar_University_of_Science_and_Technology_logo.png/220px-Guru_Jambheshwar_University_of_Science_and_Technology_logo.png",
-            CGPA: "CGPA - 7.52",
-            Duration: "August 2019 - June 2023"
+            CGPA: "CGPA - 8.03",
+            Duration: "August 2022 - June 2026"
         },
         {
-            School: "Army Public School, Hisar",
+            School: "Kendriya Vidyalaya Hisar Cantt.",
             Degree: "12th",
-            logo: "https://apshisar.com/downloads/nimages/LOGO%20JPEG.jpg",
-            CGPA: "Percentage - 93.2",
-            Duration: "April 2018 - March 2019"
+            logo: "https://i.pinimg.com/736x/5a/4e/f9/5a4ef9b9d7806da10afb1e9b3efdb22d.jpg",
+            CGPA: "Percentage - 93.6",
+            Duration: "April 2021 - March 2022"
         },
         {
-            School: "Army Public School, Hisar",
+            School: "Kendriya Vidyalaya Hisar Cantt.",
             Degree: "10th",
-            logo: "https://apshisar.com/downloads/nimages/LOGO%20JPEG.jpg",
-            CGPA: "CGPA - 10",
-            Duration: "April 2016 - March 2017"
+            logo: "https://i.pinimg.com/736x/5a/4e/f9/5a4ef9b9d7806da10afb1e9b3efdb22d.jpg",
+            CGPA: "Percentage - 93.6",
+            Duration: "April 2019 - March 2020"
         }
     ],
     Projects: [
         {
             id: 1,
-            name: "Techtrova",
-            source_code: "https://github.com/pjyotianwar/TechTrova",
-            demo: "https://tech-trova-6uui.vercel.app",
-            img: "img/techtrova.jpg",
-            description: "Techtrova is a platform dedicated to offering a diverse range of electronic appliances. It integrates with the Stripe payment gateway."
+            name: "BookRaze",
+            source_code: "https://github.com/Sarita-021/e-Book-Store",
+            demo: "https://e-book-store-bsk3.vercel.app/",
+            img: "img/BookRaze.png",
+            description: "BookRaze is a platform dedicated to offering a diverse range of books. It provides various features to users like : Search, filter, forgot password, cart."
         },
         {
             id: 2,
-            name: "Chat Nova",
-            source_code: "https://github.com/pjyotianwar/ChatNova",
-            demo: "https://chat-nova-zeta.vercel.app",
-            img: "img/chatnova.jpg",
-            description: "Chat Nova is a versatile and user-friendly messaging application designed to bring people closer through seamless communication."
+            name: "GreenGenie",
+            source_code: "https://github.com/Sarita-021/GreenGenie",
+            demo: "",
+            img: "img/GreenGenie.png",
+            description: "GreenGenie is a versatile and user-friendly application that is designed to facilitates Fashion industry waste reduction."
         },
         {
             id: 3,
-            name: "Car Rental",
-            source_code: "https://github.com/pjyotianwar/Car-Rental",
-            demo: "https://car-rental-p1wz.vercel.app/login",
-            img: "img/carrental.jpg",
-            description: "Developed a web application for small rental companies, enabling end-to-end functionality including user authentication, booking management, and admin features"
+            name: "Music Player",
+            source_code: "https://github.com/Sarita-021/music_player",
+            demo: "",
+            img: "img/Musicplayer.png",
+            description: "Developed a online music player that allows user to play music. Used React to build the website providing basic functionalities a music player should have."
         },
-        // {
-        //    id:4,
-        //     name: "Time-Wise",
-        //     link: "",
-        //     img: "",
-        //     description: "Inspiring users, it cultivates fluid goal tracking, and progress diagrams, culminating in a notable time effectiveness."
-        // },
-        // {
-        //     id:5,
-        //     name: "Book Digest",
-        //     link: "",
-        //     img: "",
-        //     description: "Keep track of books read, share ratings and reviews with community."
-        // },
-        // {
-        //     id:6,
-        //     name: "Sky Cast",
-        //     link: "",
-        //     img: "",
-        //     description: "Precise Android app displays daily weather using API data with 90% reliability in data representation."
-        // }
+        {
+            id: 4,
+            name: "Daily DSA practice",
+            link: "https://github.com/Sarita-021/Striver-A2Z-DSA-Sheet",
+            img: "img/Dsa.png",
+            description: "Repo containing my daily DSA practice in Python. I upload my daily DSA practice problemes I have solved with solutions I have proposed."
+        },
+        {
+            id: 5,
+            name: "Weather Web",
+            link: "https://github.com/Sarita-021/WeatherWeb",
+            img: "img/Weather.png",
+            description: "Online Weather check platform where we can check city based weather update with interactive UI. Used Weather API to get real time weather updates."
+        },
+        {
+            id: 6,
+            name: "Certificate Sender via Mail",
+            link: "https://github.com/Sarita-021/MLSA-Cert-Sender-via-mail",
+            img: "img/Mailsender.png",
+            description: "This repo send certificate to participants of MLSA event on their Email Id's. Further, this repo can be futher modified according to your needs."
+        },
+        {
+            id: 7,
+            name: "MLSA Certificate Generator",
+            link: "https://github.com/Sarita-021/MLSA-Certificate-Generator",
+            img: "img/CertificateGen.png",
+            description: "This repo generate certificate of the participants of MLSA event. Further, this repo can be futher modified according to the needs of the user."
+        },
+        {
+            id: 8,
+            name: "Blog Website",
+            link: "https://github.com/Sarita-021/blogProject",
+            img: "img/Blog.png",
+            description: "This project is a dynamic web application for creating and managing a personal blog. It provides an intuitive interface for users to write, edit, and publish their blog posts."
+        }
     ]
 
 }
 
-export default Jyoti;
+export default Sarita;

@@ -15,7 +15,7 @@ AOS.init({
     duration: 1200
 });
 
-$('.js-slick-carousel').each(function() {
+$('.js-slick-carousel').each(function () {
     var slickCarousel = $.HSCore.components.HSSlickCarousel.init($(this));
 });
 
@@ -39,7 +39,7 @@ const Main = ({ props }) => {
                     </div>
                     <div className='quote' data-aos="zoom-in-left" data-aos-delay="20000" data-aos-duration="8000">
                         <p>"Life is a series of 0s and 1s, and coding is the art of solving its problems."</p>
-                        <p> -Jyoti</p>
+                        <p> -Sarita</p>
                     </div>
                     <div className='socials' data-aos="zoom-in" data-aos-duration="10000"><Socials /></div>
                 </div>

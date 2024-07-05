@@ -1,5 +1,5 @@
 import React from "react";
-import Jyoti from "../details";
+import Sarita from "../details";
 import Main from "../Components/main";
 import Education from "../Components/education";
 import Skillbox from "../Components/skillbox";
@@ -16,10 +16,10 @@ const Home = () => {
         <>
             <main className="home">
                 <div>
-                    <Main props={Jyoti} />
+                    <Main props={Sarita} />
                     <Achievements />
-                    <Education props={Jyoti} />
-                    <Skillbox props={Jyoti} />
+                    <Education props={Sarita} />
+                    <Skillbox props={Sarita} />
                 </div>
             </main>
         </>
