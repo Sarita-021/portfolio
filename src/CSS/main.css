@@ -1,5 +1,4 @@
 body {
-    /* overflow-x: hidden; */
     width: 100%;
 }
 
@@ -8,7 +7,6 @@ body {
     padding: 6rem 4rem;
     height: 21rem;
     text-align: center;
-    z-index: -1 !important;
 }
 
 .wrapper .greeting {
@@ -19,38 +17,40 @@ body {
 
 .wrapper .greeting .my_name {
     background: linear-gradient(-45deg, #eb4b1a, #23a6d5, #e51263, #0bf18a);
-	background-size: 400% 100%;
-	animation: gradient 15s ease infinite;
+    background-size: 400% 100%;
+    animation: gradient 15s ease infinite;
     font-size: 3rem !important;
     padding-left: 1rem;
     z-index: -1;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .wrapper .greeting span:hover {
     color: yellow !important;
 }
 
-.myprofession{
+.myprofession {
     display: flex;
     height: 1.5rem;
 }
 
-.wrapper .myprofession span{
+.wrapper .myprofession span {
     color: rgb(219, 246, 194) !important;
     font-size: 1.2rem;
     margin: auto;

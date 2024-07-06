@@ -1,7 +1,6 @@
 #skills {
     position: relative;
     color: white;
-    z-index: -1;
     padding: 4% 5%;
     background-position: center;
     background-size: 100%;
@@ -25,10 +24,9 @@
     margin: auto;
     margin-top: 0;
     padding-bottom: 3rem;
-    /* padding-top: 2rem; */
 }
 
-#skills .main-container .title{
+#skills .main-container .title {
     position: relative;
     font-size: 2.4rem !important;
     color: rgb(219, 246, 194);
@@ -39,9 +37,9 @@
 
 #skills .main-container .flex-container {
     position: relative;
-    margin: auto;
+    margin: auto 10%;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 33% 33% 33%;
 }
 
 #skills .main-container .flex-container .container {
@@ -78,23 +76,25 @@
     font-size: 30px;
 }
 
-#skills .main-container .container .flex-cont p{
-    font-size: 12px;    
+#skills .main-container .container .flex-cont p {
+    font-size: 12px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     #skills {
         margin: 5% 10% 5% 15%;
     }
+
     #skills .main-container .flex-container {
         grid-template-columns: 45% 45%;
     }
 }
 
-@media screen and (max-width: 530px){
+@media screen and (max-width: 530px) {
     #skills {
         margin: 5% 15% 5% 25%;
     }
+
     #skills .main-container .flex-container {
         grid-template-columns: 90%;
     }

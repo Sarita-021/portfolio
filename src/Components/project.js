@@ -1,13 +1,8 @@
 import * as React from 'react';
-import { useState, useEffect, useRef} from 'react';
+import { useState, useEffect, useRef } from 'react';
 import "../CSS/project.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import SCarousel from "slick-carousel";
-// import "slick-carousel/slick/slick.css";
-// // import $ from 'jquery';
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -16,9 +11,6 @@ AOS.init({
     duration: 1200
 });
 
-// $('.js-slick-carousel').each(function() {
-//     var slickCarousel = $.HSCore.components.HSSlickCarousel.init($(this));
-// });
 
 const Project = ({ props }) => {
     const [nav1, setNav1] = useState(null);
@@ -32,8 +24,9 @@ const Project = ({ props }) => {
 
     const settings = {
         infinite: true,
-        speed: 1000,
+        speed: 500,
         arrows: true,
+        autoplaySpeed: 5000,
         autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -44,68 +37,63 @@ const Project = ({ props }) => {
     };
     const thumbnailSettings = {
         autoplay: true,
-        speed: 1000,
-        arrows:true,
-        slidesToShow: 2,
+        autoplaySpeed: 5000,
+        speed: 500,
+        arrows: true,
+        slidesToShow: 5,
         slidesToScroll: 1,
         asNavFor: ".main-slider",
         swipeToSlide: true,
         focusOnSelect: true,
-        infinite: true
+        infinite: true,
+        pauseOnHover: true
     };
 
 
-    
     return (
-        <div id='project' style={{backgroundImage: "url(img/bgp.jpg)"}}>
+        <div id='project' style={{ backgroundImage: "url(img/bgp.jpg)" }}>
             <div className='main-container'>
-                <div className='title'><h2>My Projects</h2></div>
-                <div className='project-container container'><div>
-                    <Slider className='main-slider'  {...settings} asNavFor={nav2} ref={(slider) => {setSlider1(slider)}}>
-                    
-                        {props.Projects.map((Val) => 
-                                 (
-                                        <div className='fun_box slick-slide' key={Val.id}>
-                                            <div className='project_img'>
-                                                <img className='project_img1' src={Val.img} alt='img' />
-                                            </div>
-                                            <div className='project_text'>
-                                                <div className='project_name'>
-                                                    <p>{Val.name}</p>
-                                                </div>
-                                                <div className='project_desp'>
-                                                    <p>{Val.description}</p>
-                                                </div>
-                                            </div>
-                                            
-                                            {/* <div className='techstack'>
-                                                <a href={Val.demo}><button className='livedemo btn'> Live Demo </button></a>
-                                                <a href={Val.source_code}><button className='github btn'> Source Code </button></a>
-                                            </div> */}
-                                        </div> 
-                                )
-                            )
-                        }
-                    {/* <button onCLick={slider1?.slickNext}> <FaChevronRight /> </button> */}
-                    </Slider></div>
-                    <div>
-                    <Slider className='sub-slider'  {...thumbnailSettings} asNavFor={nav1} ref={(slider) => {setSlider2(slider)}}>
-                        {props.Projects.map((Val) => 
-                                 (
-                                        <div className='fun_box' key={Val.id}>
-                                            <div className='project_img'>
-                                                <img className='project_img1' src={Val.img} alt='img' />
-                                            </div>
-                                            <hr /> 
-                                        </div>     
-                                                        
-                                )
-                            )
-                        }
-                    </Slider></div>
+                <div className='title'>
+                    <h3>A taste of what I can do for you </h3>
+                    <p>Check what I made - this is worth a thousand words about me.</p>
                 </div>
-                
-            </div>   
+                <div className='project-container container'>
+                    <Slider className='main-slider'  {...settings} asNavFor={nav2} ref={(slider) => { setSlider1(slider) }}>
+                        {props.Projects.map((Val) => (
+                            <div className='fun_box slick-slide' key={Val.id}>
+                                <div className='project_img'>
+                                    <img className='project_img1' src={Val.img} alt='img' />
+                                    <div className='bg'></div>
+                                    <a href={Val.glink} target="_blank"><button className='github btn'> Source Code </button></a>
+                                    <a href={Val.demo} target="_blank"><button className='demo btn'> Live Demo </button></a>
+                                </div>
+                                <div className='project_text'>
+                                    <div className='project_name'>
+                                        <p>{Val.name}</p>
+                                    </div>
+                                    <div className='project_desp'>
+                                        <p>{Val.description}</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        ))}
+                    </Slider>
+                </div>
+                <div className='project-container container'>
+                    <Slider className='sub-slider'  {...thumbnailSettings} asNavFor={nav1} ref={(slider) => { setSlider2(slider) }}>
+                        {props.Projects.map((Val) => (
+                            <div className='fun_box' key={Val.id}>
+                                <div className='project_img'>
+                                    <img className='project_img1' src={Val.img} alt='img' />
+                                </div>
+                                <hr />
+                            </div>
+
+                        ))}
+                    </Slider>
+                </div>
+            </div>
         </div>
     );
 }

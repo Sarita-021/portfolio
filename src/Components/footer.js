@@ -27,7 +27,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className='myphoto flex-item' data-aos="zoom-in">
-                        <img className="myph" alt="myimage" src={process.env.PUBLIC_URL + "img/myphoto.jpg"} />
+                        <img className="myph" alt="myimage" src={"img/myphoto.jpeg"} />
                     </div>
                 </div>
                 <div>

@@ -9,7 +9,7 @@
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 #achievements::before {
@@ -57,24 +57,24 @@
     font-size: large;
 }
 
-#achievements .main-container .container span{
+#achievements .main-container .container span {
     color: rgb(251, 201, 37);
 }
 
-#achievements .main-container .container .arrow{
+#achievements .main-container .container .arrow {
     color: rgb(251, 201, 37);
     position: relative;
     top: 5px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     #achievements {
         /* margin: 0 3rem 3rem; */
         background-size: auto 100%;
     }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
     #achievements {
         /* margin: 0 3rem 3rem; */
         background-size: auto 100%;

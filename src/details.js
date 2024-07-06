@@ -163,62 +163,134 @@ const Sarita = {
         {
             id: 1,
             name: "BookRaze",
-            source_code: "https://github.com/Sarita-021/e-Book-Store",
+            glink: "https://github.com/Sarita-021/e-Book-Store",
             demo: "https://e-book-store-bsk3.vercel.app/",
-            img: "img/BookRaze.png",
+            img: "img/p1.png",
             description: "BookRaze is a platform dedicated to offering a diverse range of books. It provides various features to users like : Search, filter, forgot password, cart."
         },
         {
             id: 2,
             name: "GreenGenie",
-            source_code: "https://github.com/Sarita-021/GreenGenie",
+            glink: "https://github.com/Sarita-021/GreenGenie",
             demo: "",
-            img: "img/GreenGenie.png",
+            img: "img/p2.png",
             description: "GreenGenie is a versatile and user-friendly application that is designed to facilitates Fashion industry waste reduction."
         },
         {
             id: 3,
             name: "Music Player",
-            source_code: "https://github.com/Sarita-021/music_player",
+            glink: "https://github.com/Sarita-021/music_player",
             demo: "",
-            img: "img/Musicplayer.png",
+            img: "img/p3.png",
             description: "Developed a online music player that allows user to play music. Used React to build the website providing basic functionalities a music player should have."
         },
         {
             id: 4,
             name: "Daily DSA practice",
-            link: "https://github.com/Sarita-021/Striver-A2Z-DSA-Sheet",
-            img: "img/Dsa.png",
+            glink: "https://github.com/Sarita-021/Striver-A2Z-DSA-Sheet",
+            demo: "",
+            img: "img/p4.png",
             description: "Repo containing my daily DSA practice in Python. I upload my daily DSA practice problemes I have solved with solutions I have proposed."
         },
         {
             id: 5,
             name: "Weather Web",
-            link: "https://github.com/Sarita-021/WeatherWeb",
-            img: "img/Weather.png",
+            glink: "https://github.com/Sarita-021/WeatherWeb",
+            demo: "",
+            img: "img/p5.png",
             description: "Online Weather check platform where we can check city based weather update with interactive UI. Used Weather API to get real time weather updates."
         },
         {
             id: 6,
             name: "Certificate Sender via Mail",
-            link: "https://github.com/Sarita-021/MLSA-Cert-Sender-via-mail",
-            img: "img/Mailsender.png",
+            glink: "https://github.com/Sarita-021/MLSA-Cert-Sender-via-mail",
+            demo: "",
+            img: "img/p6.png",
             description: "This repo send certificate to participants of MLSA event on their Email Id's. Further, this repo can be futher modified according to your needs."
         },
         {
             id: 7,
             name: "MLSA Certificate Generator",
-            link: "https://github.com/Sarita-021/MLSA-Certificate-Generator",
-            img: "img/CertificateGen.png",
+            glink: "https://github.com/Sarita-021/MLSA-Certificate-Generator",
+            demo: "",
+            img: "img/p7.png",
             description: "This repo generate certificate of the participants of MLSA event. Further, this repo can be futher modified according to the needs of the user."
         },
         {
             id: 8,
             name: "Blog Website",
-            link: "https://github.com/Sarita-021/blogProject",
-            img: "img/Blog.png",
+            glink: "https://github.com/Sarita-021/blogProject",
+            demo: "",
+            img: "img/p8.png",
             description: "This project is a dynamic web application for creating and managing a personal blog. It provides an intuitive interface for users to write, edit, and publish their blog posts."
         }
+    ],
+    Experiences: [
+        {
+            organisation: "GirlScript Summer of Code'23",
+            logo: "img/gssoc.png",
+            positions: [
+                {
+                    title: "Mentee",
+                    duration: "May 2023 - Aug 2023",
+                    content: [
+                        {
+                            text: "Contributed to various open source projects, and secured rank amoung top 200 contributors.",
+                            tech: [
+                                {
+                                    id: "f-1",
+                                    icon: SiReact,
+                                    name: "ReactJS",
+                                },
+                                {
+                                    id: "f-2",
+                                    icon: SiCss3,
+                                    name: "Material UI",
+                                },
+                            ]
+                        },
+                    ],
+                },
+            ],
+        },
+        {
+            organisation: "JGEC Winter of Code'23",
+            logo: "img/jwoc.webp",
+            positions: [
+                {
+                    title: "Mentee",
+                    duration: "Feb 2023 - March 2023",
+                    content: [
+                        {
+                            text: "Contributed to various open source projects, and secured rank amoung top 50 contributors.",
+                            tech: [
+                                {
+                                    id: "f-1",
+                                    icon: SiReact,
+                                    name: "ReactJS",
+                                },
+                                {
+                                    id: "f-2",
+                                    icon: SiCss3,
+                                    name: "Material UI",
+                                },
+                                {
+                                    id: "f-3",
+                                    icon: SiHtml5,
+                                    name: "HTML"
+                                },
+                                {
+                                    id: "f-4",
+                                    icon: SiJavascript,
+                                    name: "JavaScript"
+                                },
+                            ]
+                        },
+                    ],
+                },
+            ],
+        }
+
     ]
 
 }

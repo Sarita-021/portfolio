@@ -1,8 +1,6 @@
 #education {
     position: relative;
     color: white;
-    z-index: -1;
-    /* margin: 30px; */
     margin: auto;
 }
 
@@ -15,7 +13,7 @@
     padding-top: 2rem;
 }
 
-#education .title{
+#education .title {
     position: relative;
     font-size: 3rem;
     color: rgb(103, 181, 249);
@@ -32,7 +30,7 @@
     color: rgb(103, 181, 249);
 }
 
-#education .edu_wrapper .edu_flex{
+#education .edu_wrapper .edu_flex {
     position: relative;
     display: flex;
     align-items: flex-start;
@@ -43,17 +41,17 @@
     border: 5px solid #1d1d1d;
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
-    background-color: rgba(13,13,13,.85);
+    background-color: rgba(13, 13, 13, .85);
     border-radius: 0.5rem;
 }
 
-#education .edu_wrapper .edu_flex .flex-item{
+#education .edu_wrapper .edu_flex .flex-item {
     text-align: left;
     align-items: center;
     flex-direction: column;
 }
 
-#education .edu_wrapper .edu_flex .logo .logo-img{
+#education .edu_wrapper .edu_flex .logo .logo-img {
     width: 3rem;
     height: 3rem;
     margin-right: 10px;
@@ -78,7 +76,7 @@
     padding: 2px 4px 8px;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
     #education .edu_wrapper .edu_flex {
         width: 90%;
         margin: 30px auto;

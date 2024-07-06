@@ -38,7 +38,7 @@ const Header = () => {
             <div id="navbar">
                 <div className="navbar_logo-text">
                     <div className='myphoto' >
-                        <img className="myph" src={process.env.PUBLIC_URL + "img/myphoto.jpg"} />
+                        <img className="myph" src={"img/myphoto.jpeg"} />
                     </div>
                     <div className="navbar_text"><h1>Sarita</h1></div>
                 </div>
