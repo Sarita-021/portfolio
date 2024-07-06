@@ -45,9 +45,9 @@ const Header = () => {
                 <div className={Mobile ? "unwrap" : "wrap"} onClick={() => setMobile(false)} >
                     <div className={header}>
                         <ul className="ul">
-                            <li><NavLink exact activeClassName="active" className="nav_link" to="/">Home</NavLink></li>
-                            <li><NavLink activeClassName="active" className="nav_link" to="/Myprojects">Projects</NavLink></li>
-                            <li><NavLink activeClassName="active" className="nav_link" to="/MyBlogs">Blogs</NavLink></li>
+                            <li><NavLink exact activeclassname="active" className="nav_link" to="/">Home</NavLink></li>
+                            <li><NavLink activeclassname="active" className="nav_link" to="/Myprojects">Projects</NavLink></li>
+                            <li><NavLink activeclassname="active" className="nav_link" to="/MyBlogs">Blogs</NavLink></li>
                             <div className="hmbtn">
                                 <li><a href="#footer" className="nav_link">Hire Me</a></li>
                             </div>
@@ -59,7 +59,7 @@ const Header = () => {
                         </ul>
                     </div>
                 </div>
-                <div id="menu-btn" onClick={() => setMobile(!Mobile)} class="menu-btn hide">{Mobile ? <CloseIcon style={{ color: "white" }} /> : <MenuIcon style={{ color: "white" }} />}</div>
+                <div id="menu-btn" onClick={() => setMobile(!Mobile)} className="menu-btn hide">{Mobile ? <CloseIcon style={{ color: "white" }} /> : <MenuIcon style={{ color: "white" }} />}</div>
             </div>
         </header>
     );

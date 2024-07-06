@@ -10,9 +10,9 @@ const Education = ({ props }) => {
             <div className='main-container'>
                 <div className='title' data-aos="flip-down"><SchoolIcon className='edu_icon' /> Education</div>
                 <div className='edu_wrapper'>
-                    {props.Education.map((Val) => {
+                    {props.Education.map((Val, idx) => {
                         return (
-                            <div className='edu_flex' data-aos="fade-down">
+                            <div className='edu_flex' data-aos="fade-down" key={idx}>
                                 <div className='logo flex-item'>
                                     <img className='logo-img' src={Val.logo} />
                                 </div>

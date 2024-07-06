@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-import "./app.css"
-import Header from "./Components/header";
-import Home from "./Pages/home";
-import Footer from "./Components/footer";
-import MyProjects from "./Pages/myprojects";
-import MyBlogs from "./Pages/myblogs";
+import "../app.css"
+import Header from "./header";
+import Home from "../Pages/home";
+import Footer from "./footer";
+import MyProjects from "../Pages/myprojects";
+import MyBlogs from "../Pages/myblogs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
