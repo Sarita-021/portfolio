@@ -3,8 +3,9 @@
     position: relative;
     align-items: center;
     left: auto;
-    margin-top: 0;
-    margin-bottom: 3rem;
+    margin: 0 3rem 3rem;
+    /* margin-top: 0;
+    margin-bottom: 3rem; */
     height: auto;
     background-position: center;
     background-size: cover;
@@ -67,22 +68,19 @@
     top: 5px;
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
     #achievements {
         background-size: auto 100%;
     }
 
     #achievements .main-container {
-        margin: auto 5%;
+        margin: auto 8%;
     }
 }
 
 @media screen and (max-width: 700px) {
-    #achievements {
-        background-size: auto 100%;
-    }
 
     #achievements .main-container {
         margin: 0 3rem 3rem;
     }
-}
+} */
