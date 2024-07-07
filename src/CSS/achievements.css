@@ -45,6 +45,7 @@
     height: auto;
     position: relative;
     top: 5px;
+    padding-right: 10px;
     color: rgb(251, 201, 37);
 }
 
@@ -67,21 +68,22 @@
     top: 5px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     #achievements {
-        /* margin: 0 3rem 3rem; */
         background-size: auto 100%;
+    }
+
+    #achievements .main-container {
+        margin: auto 5%;
     }
 }
 
 @media screen and (max-width: 700px) {
     #achievements {
-        /* margin: 0 3rem 3rem; */
         background-size: auto 100%;
     }
 
     #achievements .main-container {
-        /* margin: auto; */
         margin: 0 3rem 3rem;
     }
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import '../CSS/achievements.css';
 import SwipeRightAltIcon from '@mui/icons-material/SwipeRightAlt';
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import AOS from "aos";
+import { GiDiamondTrophy } from "react-icons/gi";
 import "aos/dist/aos.css";
 
 AOS.init({
@@ -14,7 +14,7 @@ const Achievements = () => {
         <>
             <div id="achievements" style={{ backgroundImage: "url(img/bgi.jpg)" }}>
                 <div className="main-container">
-                    <p className="title" data-aos="flip-up"><EmojiEventsIcon className="ach_icon" />Achievements</p>
+                    <div className="title" data-aos="flip-up"><GiDiamondTrophy className="ach_icon" />Highlights</div>
                     <div className="container">
                         <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> <span>School Topper</span> in 12th and 10th Standard.</p>
                         <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> Accumulated <span>60+ Stars and 8+ Trophies</span> on GitHub.</p>

@@ -8,7 +8,7 @@ const Skillbox = ({ props }) => {
     return (
         <div id="skills" style={{ backgroundImage: "url(img/bg.jpg)" }}>
             <div className="main-container">
-                <div className="title" data-aos="flip-left"><h2> <GiSkills /> Skills</h2></div>
+                <div className="title" data-aos="flip-left"><GiSkills /> Skills</div>
                 <div className="flex-container">
                     {props.skills.map((Val, i) => {
 

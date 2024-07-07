@@ -28,11 +28,11 @@
 
 #skills .main-container .title {
     position: relative;
-    font-size: 2.4rem !important;
     color: rgb(219, 246, 194);
     text-align: center;
     align-items: baseline;
     padding-bottom: 1rem;
+    font-size: 3rem;
 }
 
 #skills .main-container .flex-container {
