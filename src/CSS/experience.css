@@ -87,3 +87,13 @@
     font-size: 20px;
     padding: 10px;
 }
+
+@media screen and (max-width: 1170px) {
+    #experience .sub-cont {
+        margin: auto 5%;
+    }
+
+    #experience .sub-cont .vertical-timeline {
+        width: auto;
+    }
+}
