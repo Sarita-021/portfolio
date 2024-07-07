@@ -19,6 +19,7 @@
 #footer .main-container .container {
     position: relative;
     text-align: left;
+    display: flex;
     align-items: flex-start;
     flex: 1 1 0%;
     flex-direction: column;
@@ -47,7 +48,7 @@
     outline: 2px solid transparent;
     outline-offset: 2px;
     margin-top: 1.5rem;
-    margin: 1.5rem 1rem 1.5rem 0;
+    /* margin: 1.5rem 1rem 1.5rem 0; */
 }
 
 #footer .main-container .container .download-link .resume .mr {
@@ -91,4 +92,30 @@
     font-size: 12px;
     color: grey;
     text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+    #footer .main-container .container {
+        width: 50%;
+    }
+
+    #footer .main-container .myphoto .myph {
+        width: 7rem;
+        height: 7rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #footer .main-container {
+        margin: auto 5% 50px;
+    }
+
+    #footer .main-container .container .icons .socials .social_icons {
+        padding-right: 8px;
+    }
+
+    #footer .main-container .myphoto .myph {
+        width: 5rem;
+        height: 5rem;
+    }
 }

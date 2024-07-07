@@ -185,6 +185,7 @@ ul {
         border-radius: 1rem;
         overflow: visible;
         transform: translate(-50%);
+        z-index: 99;
     }
 
     #navbar .menu-btn.hide {
@@ -208,7 +209,7 @@ ul {
         height: 17rem;
         opacity: 1;
         display: inline-block;
-        float: left;
+        /* float: left; */
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         background-color: rgba(0, 0, 0, 0.9);

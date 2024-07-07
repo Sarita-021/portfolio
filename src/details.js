@@ -210,7 +210,7 @@ const Sarita = {
         },
         {
             id: 7,
-            name: "MLSA Certificate Generator",
+            name: "Certificate Generator",
             glink: "https://github.com/Sarita-021/MLSA-Certificate-Generator",
             demo: "",
             img: "img/p7.png",
