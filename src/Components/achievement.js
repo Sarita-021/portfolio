@@ -12,7 +12,7 @@ AOS.init({
 const Achievements = () => {
     return (
         <>
-            <div id="achievements" style={{ backgroundImage: "url(img/bgi.jpg)" }}>
+            <div id="achievements" style={{ backgroundImage: "url(img/bga.jpg)" }}>
                 <div className="main-container">
                     <div className="title" data-aos="flip-up"><GiDiamondTrophy className="ach_icon" />Highlights</div>
                     <div className="container">

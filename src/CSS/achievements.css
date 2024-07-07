@@ -7,9 +7,8 @@
     margin-bottom: 3rem;
     height: auto;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    /* z-index: -1; */
 }
 
 #achievements::before {
@@ -18,7 +17,7 @@
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.9);
-    opacity: 0.5;
+    opacity: 0.8;
     width: 100%;
     height: 100%;
 }

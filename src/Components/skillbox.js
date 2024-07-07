@@ -6,7 +6,7 @@ const Skillbox = ({ props }) => {
 
 
     return (
-        <div id="skills" style={{ backgroundImage: "url(img/bg.jpg)" }}>
+        <div id="skills" style={{ backgroundImage: "url(img/bg.avif)" }}>
             <div className="main-container">
                 <div className="title" data-aos="flip-left"><GiSkills /> Skills</div>
                 <div className="flex-container">

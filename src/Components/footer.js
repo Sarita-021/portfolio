@@ -21,7 +21,7 @@ function Footer() {
                         </div>
                         <div className="icons"><Socials /></div>
                         <div className="download-link">
-                            <a className="resume" href={process.env.PUBLIC_URL + 'resume/Jyoti_MERN_Resume.pdf'} download='random_file.pdf'>
+                            <a className="resume" href="https://drive.google.com/file/d/1d2Q45q6oPo0ezZZBRPvRYPMn-lZryMSR/view?usp=drivesdk" >
                                 <button className="mr btn" data-aos="fade-right" data-aos-offset="0">Resume</button>
                             </a>
                         </div>
