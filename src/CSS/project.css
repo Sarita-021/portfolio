@@ -113,12 +113,16 @@
     width: 150px;
     height: 50px;
     top: 35%;
-    left: 30%;
+    /* left: 30%; */
     visibility: hidden;
 }
 
+#project .project-container .main-slider .project_img .github {
+    left: 22%;
+}
+
 #project .project-container .main-slider .project_img .demo {
-    left: 55%;
+    right: 22%;
 }
 
 #project .project-container .main-slider .project_img:hover .btn,
@@ -184,10 +188,13 @@
     display: none !important;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1100px) {
     #project .project-container .main-slider .project_img:hover .github {
-        top: 35%;
         left: 10%;
+    }
+
+    #project .project-container .main-slider .project_img:hover .demo {
+        right: 10%;
     }
 }
 
@@ -204,14 +211,6 @@
         font-size: 14px;
     }
 
-    #project .project-container .main-slider .project_img:hover .github {
-        left: 5%;
-    }
-
-    #project .project-container .main-slider .project_img:hover .demo {
-        left: 50%;
-    }
-
     #project .project-container .fun_box .project_text .project_name {
         font-size: 20px;
     }
@@ -221,13 +220,15 @@
     }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 600px) {
     #project .title h3 {
+        margin-top: 30px;
         font-size: 30px;
     }
 
     #project .title p {
         font-size: 14px;
+        padding-bottom: 30px;
     }
 
     #project .project-container .main-slider,
@@ -237,6 +238,13 @@
 
     #project .project-container .sub-slider {
         width: 80%;
+    }
+
+    #project .project-container .main-slider .project_img .btn {
+        width: 80px;
+        height: 60px;
+        font-size: 14px;
+        border-radius: 15px;
     }
 
     #project .project-container .main-slider .fun_box .project_img {
@@ -255,4 +263,14 @@
         visibility: hidden;
     }
 
+}
+
+@media screen and (max-width: 450px) {
+    #project .project-container .main-slider .project_img:hover .github {
+        left: 1%;
+    }
+
+    #project .project-container .main-slider .project_img:hover .demo {
+        right: 1%;
+    }
 }
