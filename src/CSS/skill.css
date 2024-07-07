@@ -80,22 +80,35 @@
     font-size: 12px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 860px) {
     #skills {
-        margin: 5% 10% 5% 15%;
+        margin: 5% 0;
+        padding: 4% 0;
     }
 
     #skills .main-container .flex-container {
-        grid-template-columns: 45% 45%;
+        margin: 0 7%;
     }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 860px) {
+    #skills .main-container .container .flex-cont {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
     #skills {
-        margin: 5% 15% 5% 25%;
+        margin: 5% 0 5% 5%;
     }
 
     #skills .main-container .flex-container {
         grid-template-columns: 90%;
+        margin: 0 7% 0 10%;
+    }
+
+    #skills .main-container .container .flex-cont {
+        grid-template-columns: auto auto auto auto;
+        padding: 4% 7%;
     }
 }

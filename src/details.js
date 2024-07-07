@@ -70,18 +70,18 @@ const Sarita = {
                 },
                 {
                     id: "pl-3",
+                    name: "Java",
+                    logo: FaJava
+                },
+                {
+                    id: "pl-4",
                     name: "JavaScript",
                     logo: SiJavascript
                 },
                 {
-                    id: "pl-4",
+                    id: "pl-5",
                     name: "HTML",
                     logo: SiHtml5
-                },
-                {
-                    id: "pl-5",
-                    name: "Java",
-                    logo: FaJava
                 },
                 {
                     id: "pl-6",
