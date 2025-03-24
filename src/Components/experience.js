@@ -11,25 +11,6 @@ const Content = ({ text, tech }) => {
             <p className="abt">
                 {text}{" "}
             </p>
-
-            {tech && (
-                <>
-                    <p className="abt">
-                        Tech Stack
-                    </p>
-                    <div className="ts-cnt">
-                        {tech.map((tech, index) => (
-                            <span
-                                key={tech.id}
-                                index={index}
-                                className="logo"
-                            >
-                                <tech.icon />
-                            </span>
-                        ))}
-                    </div>
-                </>
-            )}
         </div>
     );
 };
