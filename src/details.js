@@ -1,7 +1,7 @@
 import {
     SiReact, SiRedux, SiGithub, SiPostman, SiPython, SiCplusplus, SiVisualstudiocode,
     SiGit, SiCss3, SiMongodb, SiJavascript, SiExpress, SiNodedotjs, SiHtml5, SiNpm, SiMysql,
-    SiC, SiJsonwebtokens, SiMongoose, SiJupyter
+    SiC, SiJsonwebtokens, SiMongoose, SiJupyter, SiGooglecolab, SiTailwindcss
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa6";
 import { TbApi } from "react-icons/tb";
@@ -52,6 +52,11 @@ const Sarita = {
                     id: "ms-8",
                     name: "JWT",
                     logo: SiJsonwebtokens
+                },
+                {
+                    id: "ms-9",
+                    name: "Tailwind CSS",
+                    logo: SiTailwindcss
                 },
             ]
         },
@@ -132,6 +137,11 @@ const Sarita = {
                     id: "dv-8",
                     name: "Jupyter",
                     logo: SiJupyter
+                },
+                {
+                    id: "dv-9",
+                    name: "Google Colab",
+                    logo: SiGooglecolab
                 }
             ]
         }
@@ -227,27 +237,45 @@ const Sarita = {
     ],
     Experiences: [
         {
+            organisation: "JGEC Winter of Code'23",
+            logo: "img/jwoc.webp",
+            positions: [
+                {
+                    title: "Mentee",
+                    duration: "February 2025 - March 2025",
+                    content: [
+                        {
+                            text: "Mentored over 500+ mentees at JGEC Winter of Code on open source contribution best practices. Reviewed 50+ pull requests, provided feedback, and ensured adherence to project guidelines.",
+                        },
+                    ],
+                },
+            ],
+        },
+        {
+            organisation: "GirlScript Summer of Code'24",
+            logo: "img/gssoc.png",
+            positions: [
+                {
+                    title: "Open Source Contributor",
+                    duration: "October 2023 - November 2023",
+                    content: [
+                        {
+                            text: "Submitted 20+ pull requests, fixing bugs, adding features, and improving documentation.",
+                        },
+                    ],
+                },
+            ],
+        },
+        {
             organisation: "GirlScript Summer of Code'23",
             logo: "img/gssoc.png",
             positions: [
                 {
                     title: "Mentee",
-                    duration: "May 2023 - Aug 2023",
+                    duration: "May 2023 - August 2023",
                     content: [
                         {
-                            text: "Contributed to various open source projects, and secured rank amoung top 200 contributors.",
-                            tech: [
-                                {
-                                    id: "f-1",
-                                    icon: SiReact,
-                                    name: "ReactJS",
-                                },
-                                {
-                                    id: "f-2",
-                                    icon: SiCss3,
-                                    name: "Material UI",
-                                },
-                            ]
+                            text: "Contributed to various open source projects, and secured rank among top 200 contributors.",
                         },
                     ],
                 },
@@ -259,38 +287,15 @@ const Sarita = {
             positions: [
                 {
                     title: "Mentee",
-                    duration: "Feb 2023 - March 2023",
+                    duration: "February 2023 - March 2023",
                     content: [
                         {
-                            text: "Contributed to various open source projects, and secured rank amoung top 50 contributors.",
-                            tech: [
-                                {
-                                    id: "f-1",
-                                    icon: SiReact,
-                                    name: "ReactJS",
-                                },
-                                {
-                                    id: "f-2",
-                                    icon: SiCss3,
-                                    name: "Material UI",
-                                },
-                                {
-                                    id: "f-3",
-                                    icon: SiHtml5,
-                                    name: "HTML"
-                                },
-                                {
-                                    id: "f-4",
-                                    icon: SiJavascript,
-                                    name: "JavaScript"
-                                },
-                            ]
+                            text: "Contributed to various open source projects, and secured rank among top 50 contributors.",
                         },
                     ],
                 },
             ],
         }
-
     ]
 
 }
