@@ -172,65 +172,65 @@ const Sarita = {
     Projects: [
         {
             id: 1,
-            name: "BookRaze",
+            title: "BookRaze",
             glink: "https://github.com/Sarita-021/e-Book-Store",
-            demo: "https://e-book-store-bsk3.vercel.app/",
+            demoLink: "https://e-book-store-bsk3.vercel.app/",
             img: "img/p1.png",
             description: "BookRaze is a platform dedicated to offering a diverse range of books. It provides various features to users like : Search, filter, forgot password, cart."
         },
         {
             id: 2,
-            name: "GreenGenie",
+            title: "GreenGenie",
             glink: "https://github.com/Sarita-021/GreenGenie",
-            demo: "",
+            demoLink: "",
             img: "img/p2.png",
             description: "GreenGenie is a versatile and user-friendly application that is designed to facilitates Fashion industry waste reduction."
         },
         {
             id: 3,
-            name: "Music Player",
+            title: "Music Player",
             glink: "https://github.com/Sarita-021/music_player",
-            demo: "",
+            demoLink: "",
             img: "img/p3.png",
             description: "Developed a online music player that allows user to play music. Used React to build the website providing basic functionalities a music player should have."
         },
         {
             id: 4,
-            name: "Daily DSA practice",
+            title: "Daily DSA practice",
             glink: "https://github.com/Sarita-021/Striver-A2Z-DSA-Sheet",
-            demo: "",
+            demoLink: "",
             img: "img/p4.png",
             description: "Repo containing my daily DSA practice in Python. I upload my daily DSA practice problemes I have solved with solutions I have proposed."
         },
         {
             id: 5,
-            name: "Weather Web",
+            title: "Weather Web",
             glink: "https://github.com/Sarita-021/WeatherWeb",
-            demo: "",
+            demoLink: "",
             img: "img/p5.png",
             description: "Online Weather check platform where we can check city based weather update with interactive UI. Used Weather API to get real time weather updates."
         },
         {
             id: 6,
-            name: "Certificate Sender via Mail",
+            title: "Certificate Sender via Mail",
             glink: "https://github.com/Sarita-021/MLSA-Cert-Sender-via-mail",
-            demo: "",
+            demoLink: "",
             img: "img/p6.png",
             description: "This repo send certificate to participants of MLSA event on their Email Id's. Further, this repo can be futher modified according to your needs."
         },
         {
             id: 7,
-            name: "Certificate Generator",
+            title: "Certificate Generator",
             glink: "https://github.com/Sarita-021/MLSA-Certificate-Generator",
-            demo: "",
+            demoLink: "",
             img: "img/p7.png",
             description: "This repo generate certificate of the participants of MLSA event. Further, this repo can be futher modified according to the needs of the user."
         },
         {
             id: 8,
-            name: "Blog Website",
+            title: "Blog Website",
             glink: "https://github.com/Sarita-021/blogProject",
-            demo: "",
+            demoLink: "",
             img: "img/p8.png",
             description: "This project is a dynamic web application for creating and managing a personal blog. It provides an intuitive interface for users to write, edit, and publish their blog posts."
         }
