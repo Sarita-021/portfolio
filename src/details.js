@@ -188,14 +188,6 @@ const Sarita = {
         },
         {
             id: 3,
-            title: "Music Player",
-            glink: "https://github.com/Sarita-021/music_player",
-            demoLink: "",
-            img: "img/p3.png",
-            description: "Developed a online music player that allows user to play music. Used React to build the website providing basic functionalities a music player should have."
-        },
-        {
-            id: 4,
             title: "Daily DSA practice",
             glink: "https://github.com/Sarita-021/Striver-A2Z-DSA-Sheet",
             demoLink: "",
@@ -203,7 +195,7 @@ const Sarita = {
             description: "Repo containing my daily DSA practice in Python. I upload my daily DSA practice problemes I have solved with solutions I have proposed."
         },
         {
-            id: 5,
+            id: 4,
             title: "Weather Web",
             glink: "https://github.com/Sarita-021/WeatherWeb",
             demoLink: "",
@@ -211,7 +203,7 @@ const Sarita = {
             description: "Online Weather check platform where we can check city based weather update with interactive UI. Used Weather API to get real time weather updates."
         },
         {
-            id: 6,
+            id: 5,
             title: "Certificate Sender via Mail",
             glink: "https://github.com/Sarita-021/MLSA-Cert-Sender-via-mail",
             demoLink: "",
@@ -219,7 +211,7 @@ const Sarita = {
             description: "This repo send certificate to participants of MLSA event on their Email Id's. Further, this repo can be futher modified according to your needs."
         },
         {
-            id: 7,
+            id: 6,
             title: "Certificate Generator",
             glink: "https://github.com/Sarita-021/MLSA-Certificate-Generator",
             demoLink: "",
@@ -227,7 +219,7 @@ const Sarita = {
             description: "This repo generate certificate of the participants of MLSA event. Further, this repo can be futher modified according to the needs of the user."
         },
         {
-            id: 8,
+            id: 7,
             title: "Blog Website",
             glink: "https://github.com/Sarita-021/blogProject",
             demoLink: "",
@@ -241,7 +233,7 @@ const Sarita = {
             logo: "img/jwoc.webp",
             positions: [
                 {
-                    title: "Mentee",
+                    title: "Mentor",
                     duration: "February 2025 - March 2025",
                     content: [
                         {
