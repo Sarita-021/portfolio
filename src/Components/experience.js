@@ -1,7 +1,6 @@
 import React from 'react';
 import "../CSS/experience.css";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
-import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 import { BsPersonWorkspace } from "react-icons/bs";
 

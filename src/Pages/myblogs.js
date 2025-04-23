@@ -1,7 +1,7 @@
 import React from "react";
 import Blog from "../Components/blog";
 
-const MyProjects = () => {
+const MyBlogs = () => {
     return (
         <>
             <Blog />
@@ -9,4 +9,4 @@ const MyProjects = () => {
     )
 }
 
-export default MyProjects;
+export default MyBlogs;

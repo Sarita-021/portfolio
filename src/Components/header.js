@@ -1,9 +1,8 @@
-import react, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "../CSS/header.css";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import DataObjectIcon from '@mui/icons-material/DataObject';
 
 
 const Header = () => {
@@ -38,7 +37,7 @@ const Header = () => {
             <div id="navbar">
                 <div className="navbar_logo-text">
                     <div className='myphoto' >
-                        <img className="myph" src={"img/myphoto.jpeg"} />
+                        <img className="myph" alt="myphoto" src={"img/myphoto.jpeg"} />
                     </div>
                     <div className="navbar_text"><h1>Sarita</h1></div>
                 </div>

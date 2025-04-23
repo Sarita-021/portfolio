@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../CSS/skill.css"
 import { GiSkills } from "react-icons/gi"
 

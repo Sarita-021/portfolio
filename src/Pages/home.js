@@ -22,7 +22,6 @@ const Home = () => {
                     <Experience props={Sarita} />
                     <Achievements />
                     <Education props={Sarita} />
-
                 </div>
             </main>
         </>

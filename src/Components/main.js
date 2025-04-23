@@ -1,22 +1,14 @@
 import * as React from 'react';
 import Socials from './socials';
 import "../CSS/main.css";
-import { useState, useEffect } from 'react';
 import { useTypewriter } from 'react-simple-typewriter'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import SCarousel from "slick-carousel";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick";
-import $ from 'jquery';
-import Slider from "react-slick";
 
 AOS.init({
     duration: 1200
-});
-
-$('.js-slick-carousel').each(function () {
-    var slickCarousel = $.HSCore.components.HSSlickCarousel.init($(this));
 });
 
 const Main = ({ props }) => {

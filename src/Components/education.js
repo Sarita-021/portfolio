@@ -4,7 +4,6 @@ import "../CSS/education.css"
 
 const Education = ({ props }) => {
 
-
     return (
         <div id='education'>
             <div className='main-container'>
@@ -14,7 +13,7 @@ const Education = ({ props }) => {
                         return (
                             <div className='edu_flex' data-aos="fade-down" key={idx}>
                                 <div className='logo flex-item'>
-                                    <img className='logo-img' src={Val.logo} />
+                                    <img className='logo-img' alt='logo' src={Val.logo} />
                                 </div>
                                 <div className='detail flex-item'>
                                     <div className='school_name'>
