@@ -172,6 +172,22 @@ const Sarita = {
     Projects: [
         {
             id: 1,
+            title: "AutoHire - AI",
+            glink: "https://github.com/Sarita-021/autoHire_AI",
+            demoLink: "https://autohire-ai-j684.onrender.com/",
+            img: "img/autohire.png",
+            description: "An AI-driven recruitment tool that automates resume shortlisting using NLP and machine learning, streamlining the hiring process for recruiters."
+        },
+        {
+            id: 2,
+            title: "MediSync - AI",
+            glink: "https://github.com/Sarita-021/mediSyncAI",
+            demoLink: "https://huggingface.co/spaces/Sarita021/MediSyncAI",
+            img: "img/medisync.png",
+            description: "An AI-powered healthcare assistant for rural clinics that extracts prescription data and interacts with patients via voice and chatbot support."
+        },
+        {
+            id: 3,
             title: "BookRaze",
             glink: "https://github.com/Sarita-021/e-Book-Store",
             demoLink: "https://e-book-store-bsk3.vercel.app/",
@@ -179,7 +195,23 @@ const Sarita = {
             description: "BookRaze is a platform dedicated to offering a diverse range of books. It provides various features to users like : Search, filter, forgot password, cart."
         },
         {
-            id: 2,
+            id: 4,
+            title: "Real Time Object Detection YOLO",
+            glink: "https://github.com/Sarita-021/Real-Time-Object-Detection-YOLO",
+            demoLink: "",
+            img: "img/p4.png",
+            description: "This project implements a real time object detection via video, webcam and image detection using YOLO algorithm."
+        },
+        {
+            id: 5,
+            title: "Handwritten-Digit-Recognition System",
+            glink: "https://github.com/Sarita-021/Neural-Networks-for-Handwritten-Digit-Recognition",
+            demoLink: "",
+            img: "img/digit.png",
+            description: "A deep learning project using neural networks to accurately classify handwritten digits from the MNIST dataset, showcasing image recognition capabilities."
+        },
+        {
+            id: 6,
             title: "GreenGenie",
             glink: "https://github.com/Sarita-021/GreenGenie",
             demoLink: "",
@@ -187,15 +219,7 @@ const Sarita = {
             description: "GreenGenie is a versatile and user-friendly application that is designed to facilitates Fashion industry waste reduction."
         },
         {
-            id: 3,
-            title: "Daily DSA practice",
-            glink: "https://github.com/Sarita-021/Striver-A2Z-DSA-Sheet",
-            demoLink: "",
-            img: "img/p4.png",
-            description: "Repo containing my daily DSA practice in Python. I upload my daily DSA practice problemes I have solved with solutions I have proposed."
-        },
-        {
-            id: 4,
+            id: 7,
             title: "Weather Web",
             glink: "https://github.com/Sarita-021/WeatherWeb",
             demoLink: "",
@@ -203,7 +227,15 @@ const Sarita = {
             description: "Online Weather check platform where we can check city based weather update with interactive UI. Used Weather API to get real time weather updates."
         },
         {
-            id: 5,
+            id: 8,
+            title: "Blog Website",
+            glink: "https://github.com/Sarita-021/blogProject",
+            demoLink: "",
+            img: "img/p8.png",
+            description: "This project is a dynamic web application for creating and managing a personal blog. It provides an intuitive interface for users to write, edit, and publish their blog posts."
+        },
+        {
+            id: 9,
             title: "Certificate Sender via Mail",
             glink: "https://github.com/Sarita-021/MLSA-Cert-Sender-via-mail",
             demoLink: "",
@@ -211,21 +243,13 @@ const Sarita = {
             description: "This repo send certificate to participants of MLSA event on their Email Id's. Further, this repo can be futher modified according to your needs."
         },
         {
-            id: 6,
+            id: 10,
             title: "Certificate Generator",
             glink: "https://github.com/Sarita-021/MLSA-Certificate-Generator",
             demoLink: "",
             img: "img/p7.png",
             description: "This repo generate certificate of the participants of MLSA event. Further, this repo can be futher modified according to the needs of the user."
         },
-        {
-            id: 7,
-            title: "Blog Website",
-            glink: "https://github.com/Sarita-021/blogProject",
-            demoLink: "",
-            img: "img/p8.png",
-            description: "This project is a dynamic web application for creating and managing a personal blog. It provides an intuitive interface for users to write, edit, and publish their blog posts."
-        }
     ],
     Experiences: [
         {
