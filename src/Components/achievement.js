@@ -16,15 +16,15 @@ const Achievements = () => {
                 <div className="main-container">
                     <div className="title" data-aos="flip-up"><GiDiamondTrophy className="ach_icon" />Highlights</div>
                     <div className="container">
-                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> Achieved a Top <span>100</span> ranking in the <span>ICPC Algo Queen 2024 Challenge</span>, a competitive DSA coding competition.</p>
-                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> <span>Mentored</span> more than 50 students by leading <span>AI 900 Study Group</span> to become Microsoft Certified.</p>
-                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> Accumulated <span>60+ Stars and 8+ Trophies</span> on GitHub.</p>
-                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> Contributed to a successful project organized by <span>MLSA</span>, achieving recognition among the <span>top 5 projects</span>.</p>
-                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> Excelled in the <span>IEEE</span> Web Development Bootcamp, earning a spot in the top <span>5%</span> of performers. </p>
-                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> <span>Open-source</span> contributor in <span>JGEC</span> - Winter of Code'23 and <span>GirlScript</span> Summer of Code'23.</p>
-                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> Attained a position among the <span>top 5K</span> students as a <span>Reliance Foundation Scholar</span>.</p>
-                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> Attained a position among the <span>top 5K</span> students as a <span>Pragati Scholarship by Govt. of India</span>.</p>
                         <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> <span>School Topper</span> in 12th and 10th Standard.</p>
+                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> Secured <span>First Rank</span> in <span>SIH 2024 Internal Hackathon</span>.</p>
+                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> "<span>Myntra HackerRamp: WeForShe 2024</span>" Semi-Finalist.</p>
+                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> Semi-Finalist at, <span>Flipkart GRiD 6.0 - Robotics Challenge</span>.</p>
+                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> Semi-Finalist at <span>Tata Imagination Challenge 2024</span>: Student Track.</p>
+                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> Among <span>Top 100</span> in the "<span>ICPC Algo Queen 2024 Challenge</span>" – a competitive DSA coding competition with 2K+ participants.</p>
+                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> "<span>Pragati Scholarship, Govt. of India 2022</span>" – Merit-based scholarship awarded to 5K female students pursuing B.Tech.</p>
+                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> "<span>Reliance Foundation Scholar 2022</span>" – Awarded to 5K students nationwide based on performance in the Aptitude Test & academic excellence.</p>
+                        <p data-aos="fade-right"><SwipeRightAltIcon className="arrow" /> Attained prestigious recognition as an awardee of the "<span>Army Welfare Scholarship Scheme</span>" for 4 consecutive years (2018–2022).</p>
                     </div>
                 </div>
             </div>

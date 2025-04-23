@@ -38,6 +38,7 @@
     color: rgb(251, 201, 37) !important;
     text-align: center;
     align-items: baseline;
+    margin-bottom: 4rem;
 }
 
 #achievements .main-container .title .ach_icon {
