@@ -21,7 +21,7 @@ function Footer() {
                         </div>
                         <div className="icons"><Socials /></div>
                         <div className="download-link">
-                            <a className="resume" href="https://drive.google.com/file/d/1d2Q45q6oPo0ezZZBRPvRYPMn-lZryMSR/view?usp=drivesdk" >
+                            <a className="resume" href="https://drive.google.com/file/d/1t3Raf-DcbEH63ddix6I5E7wNj_N9uv9h/view?usp=sharing" >
                                 <button className="mr btn" data-aos="fade-right" data-aos-offset="0">Resume</button>
                             </a>
                         </div>
