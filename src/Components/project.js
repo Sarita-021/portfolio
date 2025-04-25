@@ -25,7 +25,7 @@ const Project = ({ props }) => {  // Keeping function structure the same
                 title={project.title}
                 description={project.description}
                 ghLink={project.glink}  // GitHub link
-                demoLink={project.demo} // Demo link
+                demoLink={project.demoLink} // Demo link
               />
             </Col>
           ))}

@@ -312,6 +312,22 @@ const Sarita = {
                 },
             ],
         }
+    ],
+    Blogs: [
+        {
+            id: 1,
+            title: "Building Your Own Chatbot using Azure OpenAI Capabilities",
+            description: "This blog, will walk you through the steps to set up a chatbot using Open AI’s GPT-4o model that leverages Azure's advanced language models.",
+            img: "img/blog1.png",
+            link: "https://techcommunity.microsoft.com/blog/educatordeveloperblog/building-your-own-chatbot-using-azure-openai-capabilities/4260740"
+        },
+        {
+            id: 2,
+            title: "Bridging the Healthcare Gap: How Gen AI is Powering MediSync.AI in Rural Clinics",
+            description: "This blog highlights the fusion of cutting-edge AI with real-world medical needs in underserved areas, by understanding prescriptions and facilitating patient interaction.",
+            img: "img/blog2.png",
+            link: "https://medium.com/@pansaritawar/bridging-the-healthcare-gap-how-gen-ai-is-powering-medisync-ai-in-rural-clinics-d15ac2b63c8f"
+        },
     ]
 
 }
