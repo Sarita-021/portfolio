@@ -196,6 +196,14 @@ const Sarita = {
         },
         {
             id: 4,
+            title: "Recurring Date Picker",
+            glink: "https://github.com/Sarita-021/Recurring-Date-Picker",
+            demoLink: "https://recurring-date-picker-l6og.vercel.app/",
+            img: "img/rdp.png",
+            description: "A React and Tailwind CSS based recurring date picker with tab-based navigation, customizable recurrence options, and a dynamic calendar preview."
+        },
+        {
+            id: 4,
             title: "Real Time Object Detection YOLO",
             glink: "https://github.com/Sarita-021/Real-Time-Object-Detection-YOLO",
             demoLink: "",
@@ -252,6 +260,21 @@ const Sarita = {
         },
     ],
     Experiences: [
+        {
+            organisation: "PearlThoughts",
+            logo: "img/pearlthoughts.jpeg",
+            positions: [
+                {
+                    title: "Frontend Developer Intern",
+                    duration: "July 2025 - August 2025",
+                    content: [
+                        {
+                            text: "Contributed to developing responsive, user-centric web applications at PearlThoughts using React, HTML, CSS, and JavaScript, optimizing performance and cross-browser compatibility",
+                        },
+                    ],
+                },
+            ],
+        },
         {
             organisation: "JGEC Winter of Code'23",
             logo: "img/jwoc.webp",
